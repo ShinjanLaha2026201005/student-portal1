@@ -3,3 +3,7 @@ struct Settings {
     bool darkMode = false;
     bool notificationsOn = true;
 };
+
+void toggleDarkMode(Settings& s) {
+    s.darkMode = !s.darkMode;
+}
