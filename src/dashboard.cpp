@@ -14,3 +14,4 @@ void showCourses() {
 void showGradeSummary() {
     std::cout << "Overall grade average: 88%\n";
 }
+// minor tweak
