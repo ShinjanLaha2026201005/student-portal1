@@ -11,3 +11,7 @@ void toggleDarkMode(Settings& s) {
 void toggleNotifications(Settings& s) {
     s.notificationsOn = !s.notificationsOn;
 }
+
+void printSettings(const Settings& s) {
+    std::cout << "Dark mode: " << s.darkMode << ", Notifications: " << s.notificationsOn << "\n";
+}
