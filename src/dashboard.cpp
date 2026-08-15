@@ -10,3 +10,7 @@ void showNotifications(int count) {
 void showCourses() {
     std::cout << "Enrolled courses: Math, Physics, CS\n";
 }
+
+void showGradeSummary() {
+    std::cout << "Overall grade average: 88%\n";
+}
