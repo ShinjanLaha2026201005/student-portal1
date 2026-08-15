@@ -8,3 +8,7 @@ struct Profile {
 void printProfile(const Profile& p) {
     std::cout << p.name << " - " << p.email << "\n";
 }
+
+void updateEmail(Profile& p, const std::string& newEmail) {
+    p.email = newEmail;
+}
