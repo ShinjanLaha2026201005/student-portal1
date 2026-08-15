@@ -8,3 +8,7 @@ A simple student portal for managing login, profile, dashboard, and settings.
 - Profile management
 - Dashboard
 - Settings
+
+## Requirements
+- g++ (C++17 or later)
+- Git 2.30+
