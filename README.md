@@ -1,6 +1,7 @@
 # Student Portal
 
 ## About
+This line was changed on the conflict-demo branch.
 A simple student portal for managing login, profile, dashboard, and settings.
 
 ## Features
