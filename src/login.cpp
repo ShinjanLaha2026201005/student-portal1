@@ -7,3 +7,6 @@ bool login(const std::string& user, const std::string& pass) {
 void printLoginPrompt() {
     std::cout << "Enter username and password to continue.\n";
 }
+
+int loginAttempts = 0;
+const int MAX_ATTEMPTS = 3;
