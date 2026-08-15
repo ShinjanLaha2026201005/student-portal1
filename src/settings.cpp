@@ -7,3 +7,7 @@ struct Settings {
 void toggleDarkMode(Settings& s) {
     s.darkMode = !s.darkMode;
 }
+
+void toggleNotifications(Settings& s) {
+    s.notificationsOn = !s.notificationsOn;
+}
