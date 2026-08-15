@@ -21,3 +21,6 @@ cd student-portal
 
 ## Usage
 Compile any module with g++, e.g. `g++ login.cpp -o login && ./login`
+
+## License
+MIT
