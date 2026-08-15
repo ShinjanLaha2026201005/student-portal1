@@ -18,3 +18,6 @@ A simple student portal for managing login, profile, dashboard, and settings.
 git clone https://github.com/YOUR-USERNAME/student-portal.git
 cd student-portal
 ```
+
+## Usage
+Compile any module with g++, e.g. `g++ login.cpp -o login && ./login`
