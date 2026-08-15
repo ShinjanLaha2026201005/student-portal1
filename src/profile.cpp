@@ -12,3 +12,7 @@ void printProfile(const Profile& p) {
 void updateEmail(Profile& p, const std::string& newEmail) {
     p.email = newEmail;
 }
+
+bool isValidEmail(const std::string& email) {
+    return email.find('@') != std::string::npos;
+}
