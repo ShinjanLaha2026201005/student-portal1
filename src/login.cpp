@@ -10,3 +10,7 @@ void printLoginPrompt() {
 
 int loginAttempts = 0;
 const int MAX_ATTEMPTS = 3;
+
+void lockAccount() {
+    std::cout << "Account locked after too many failed attempts.\n";
+}
